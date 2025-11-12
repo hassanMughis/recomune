@@ -315,7 +315,7 @@ export default function Page() {
 <footer className="bg-[#05112B] text-white text-center pt-16">
   {/* Logo and tagline */}
   <div className="flex flex-col items-center space-y-4">
-      <img src="/logo.svg" alt="ReComune Logo" className="w-76" />
+      <img src="/Logo.svg" alt="ReComune Logo" className="w-76" />
       
   </div>
 

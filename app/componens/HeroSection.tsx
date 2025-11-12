@@ -37,7 +37,7 @@ const HeroSection = () => {
   return (
     <div className="relative w-full h-fit bg-[url('/Rectangle.png')] bg-cover bg-center bg-no-repeat overflow-hidden ">
       <motion.img
-        src="/logo.svg"
+        src="/Logo.svg"
         alt="logo"
         className="absolute top-6 left-8 w-24 sm:top-8 sm:left-12 sm:w-32 md:top-10 md:left-10 md:w-44 lg:top-10 lg:left-25 lg:w-60 z-40 xl:left-40"
         initial={{ opacity: 0 }}
