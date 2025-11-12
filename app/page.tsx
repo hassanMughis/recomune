@@ -198,9 +198,7 @@ export default function Page() {
  <CircleProgress
   progress={40}
   size={
-   window.innerWidth > 1000
-      ? 450
-      : 350
+   450
   }
 />
 
