@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Switzer";
+  src: url("/fonts/Switzer-Bold.otf") format("opentype");
+}
+@import "tailwindcss";
+
+:root {
+  --font-switzer: "Switzer", sans-serif;
+}
+
+body {
+  font-family: var(--font-switzer);
+}
+
+/* Animated gradient sphere */
+.animate-gradient-sphere {
+  width: 500px;
+  height: 550px;
+  border-radius: 50%;
+  background: conic-gradient(from 0deg, #2563EA, #1E40AF, #2563EA, #2563EA);
+  animation: rotate-gradient 5s linear infinite;
+  box-shadow: 0 0 30px 5px rgba(37, 99, 234, 0.5);
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 640px) { 
+  .animate-gradient-sphere {
+    width: 200px;
+    height: 220px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1023px) { 
+  .animate-gradient-sphere {
+    width: 300px;
+    height: 330px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) { 
+  .animate-gradient-sphere {
+    width:  500px;
+    height:  500px;
+  }
+}
+
+@keyframes rotate-gradient {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
